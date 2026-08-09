@@ -1,0 +1,21 @@
+drink = input("What drink? (coffee/tea): ")
+
+if drink == "coffee":
+    sugar = input("Do black or sugar? ")
+
+    if sugar == "black":
+        print("Black coffee")
+    elif sugar == "sugar":
+        print("Sugar coffee")
+    else:
+        print("Sorry")
+
+elif drink == "tea":
+    Green = input("Green or red? ")
+
+    if Green == "green":
+        print("Green tea")
+    elif Green == "red":
+        print("Red tea")
+    else:
+        print("Sorry")
