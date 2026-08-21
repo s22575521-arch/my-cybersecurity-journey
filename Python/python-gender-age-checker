@@ -1,0 +1,16 @@
+# python sara.py
+
+gender = input("What is your gender? ")
+age = int(input("What is your age? "))
+
+if gender == "girl":
+    print("Gender: girl")
+
+    if age <= 21:
+        print("She is a young girl")
+
+elif gender == "boy":
+    print("Gender: boy")
+
+    if age <= 21:
+        print("He is a young boy")
